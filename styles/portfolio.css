@@ -127,3 +127,35 @@ main section{
 .skill-description{
     font-size: 17px;
 }
+/* resume style */
+.resume-container{
+    display: flex;
+    gap: 30px;
+}
+.section-title{
+    text-align: center;
+}
+.resume-column-title{
+    font-size: 32px;
+}
+.experience-title{
+    font-size: 26px;
+    font-weight: 700;
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-description{
+    font-size: 16;
+    color: #757575;
+}
+hr{
+    margin: 25px 5px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 60px;
+}
+
