@@ -1,31 +1,35 @@
 /* Nav style */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 10px 150px;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
+    background-position: top left, bottom right;
 }
 
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -35,127 +39,183 @@ nav{
     border: none;
 
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 50px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     display: flex;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
 }
-.banner-greting{
+
+.banner-greting {
     font-size: 45px;
 }
-.banner-mary{
+
+.banner-mary {
     font-size: 85px;
     font-weight: bold;
 }
-.banner-image{
+
+.banner-image {
     width: 580px;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 180px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     color: #757575;
 }
-.secondary-bg{
+
+.secondary-bg {
     background-color: #FFF8F3;
 }
+
 /* main style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* About style */
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
 }
-.item-description{
+
+.item-description {
     font-size: 35;
     font-weight: bold;
 }
-.about-items{
+
+.about-items {
     display: flex;
 
     justify-content: space-around;
 }
-.text-style{
+
+.text-style {
     text-align: center;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     gap: 25px;
 }
-.skill{
+
+.skill {
     padding: 20px;
     box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
-main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
-.skill-title{
+
+.skill-title {
     font-size: 25px;
 }
-.skill-description{
+
+.skill-description {
     font-size: 17px;
 }
+
 /* resume style */
-.resume-container{
+.resume-container {
     display: flex;
     gap: 30px;
 }
-.section-title{
+
+.section-title {
     text-align: center;
 }
-.resume-column-title{
+
+.resume-column-title {
     font-size: 32px;
 }
-.experience-title{
+
+.experience-title {
     font-size: 26px;
     font-weight: 700;
 }
-.experience-sub-title{
+
+.experience-sub-title {
     font-size: 20px;
     color: #757575;
     margin-bottom: 20px;
 }
-.experience-description{
+
+.experience-description {
     font-size: 16;
     color: #757575;
 }
-hr{
+
+hr {
     margin: 25px 5px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
     margin-top: 60px;
 }
 
+/* footer style */
+footer {
+    padding: 130px 250px;
+    display: flex;
+    gap: 120px;
+}
+
+.foter-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 65px;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 25px;
+    border: none;
+}
+.style{
+    font-size: 17px;
+}
